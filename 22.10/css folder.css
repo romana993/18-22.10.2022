@@ -1,0 +1,95 @@
+
+p {
+    color:darkturquoise;
+    background-color:darkslategrey;
+    opacity: 0.5;
+    font-size: large;
+    font-family:Monserrat;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-align: left;
+    
+    
+}
+
+.drugiParagraf {
+    color:rgba(0, 206, 209,0.5);
+    background-color:darkolivegreen;
+    font-size: 20px;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+    
+
+}
+
+.treciParagraf {
+    color:#00ced1;
+    background-color:darkblue;
+    font-size: xx-large;
+    text-align: center;
+
+
+}
+span{
+    font-style: italic;
+}
+
+#slika1 {
+    opacity: 0.5;
+}
+#kolona1{
+    color: aliceblue;
+    background-color: blue;
+}
+#kolona2{
+    color:hotpink;
+    background-color: crimson;
+
+}
+#kolona3{
+    background-color: blueviolet;
+}
+#kolona4{
+    background-color: coral;
+}
+#kolona5{
+    background-color: gold;
+}
+
+@font-face {
+    font-family:'Monserrat';
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:"Anton" ;
+    src: url(https://fonts.google.com/specimen/Anton);
+}
+
+h1{
+    font-family: "Anton";
+}
+
+ul {
+    background-color: yellow;
+}
+
+a:link {
+    text-shadow: 20px;
+    color: red;
+    
+}
+a:visited {
+    color:black
+}
+
+a:hover {
+    color: green;
+}
+a:active{
+    color: blue;
+}
